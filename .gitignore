@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+
+venv/
+
+logs/
+data/
+
+.vscode/
+.idea/
+
+*.log
