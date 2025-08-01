@@ -9,7 +9,7 @@ PIPELINE_NAME = "Countries_Pipeline"
 COUNTRIES_API_URL = os.getenv("COUNTRIES_API_URL")
 DATABASE_URL = os.getenv("DATABASE_URL")
 
-PROJECT_ROOT = Path(os.getcwd()).parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 DATA_BASE_DIR = PROJECT_ROOT / "data"
 LOG_BASE_DIR = PROJECT_ROOT / "logs"
